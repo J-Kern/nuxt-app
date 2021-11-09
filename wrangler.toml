@@ -1,0 +1,14 @@
+name = "playground"
+type = "javascript"
+account_id = "6efcae5130a2e08ef8ab99b0017c7837"
+workers_dev = true
+route = ""
+zone_id = ""
+
+[site]
+bucket = ".output/public"
+entry-point = ".output"
+
+[build]
+command = "yarn nuxt build"
+upload.format = "service-worker"
