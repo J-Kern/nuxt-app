@@ -1,7 +1,10 @@
 import { defineConfig } from 'windicss/helpers';
+import scrollSnapPlugin from 'windicss/plugin/scroll-snap'
 
 export default defineConfig({
-    attributify: true,
+    attributify: {
+        prefix: 'wd'
+    },
     darkMode: 'media',
     plugin: [
         require('@windicss/animations'),
@@ -9,6 +12,12 @@ export default defineConfig({
         require('@windicss/plugin-icons'),
         require('@windicss/plugin-scrollbar'),
         require('@windicss/plugin-question-mark'),
+        require('windicss/plugin/aspect-ratio'),
+        require('windicss/plugin/forms'),
+        require('windicss/plugin/filters'),
+        require('windicss/plugin/line-clamp'),
+        scrollSnapPlugin,
+        require('windicss/plugin/typography'),
     ],
     preflight: true,
     shortcuts: {
