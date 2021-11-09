@@ -6,7 +6,7 @@
 
 
 <script lang="ts">
-import { defineNuxtComponent } from "nuxt3";
+import { defineNuxtComponent } from "#app";
 
 export default defineNuxtComponent({
     data() {
