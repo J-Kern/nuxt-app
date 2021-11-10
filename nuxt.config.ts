@@ -34,11 +34,9 @@ export default defineNuxtConfig({
   },
   windicss: {
       scan: {
-          dirs: ['./'],
-          exclude: [
-              'node_modules',
-              'dist',
-          ],
+        dir: './*',
+        include: ['**/*.{vue,html,jsx,tsx}'],
+        exclude: ['node_modules', '.git', '.nuxt', '.output'],
       },
   }
 });
