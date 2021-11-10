@@ -5,7 +5,7 @@ export default defineConfig({
     attributify: {
         prefix: 'wd'
     },
-    darkMode: 'media',
+    darkMode: 'class',
     plugin: [
         require('@windicss/animations'),
         require('@windicss/plugin-heropatterns'),
