@@ -3,7 +3,7 @@ type = "javascript"
 account_id = "6efcae5130a2e08ef8ab99b0017c7837"
 workers_dev = true
 route = ""
-zone_id = ""
+zone_id = "bd39d410c3936e1581c277462a1abb13"
 
 [site]
 bucket = ".output/public"
