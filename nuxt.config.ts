@@ -1,4 +1,5 @@
 import { defineNuxtConfig } from "nuxt3";
+import envConfigs from "./env.nuxt.config";
 
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
