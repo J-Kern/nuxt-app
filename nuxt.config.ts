@@ -1,5 +1,4 @@
 import { defineNuxtConfig } from "nuxt3";
-import envConfigs from "./env.nuxt.config";
 
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
@@ -31,6 +30,14 @@ export default defineNuxtConfig({
     host: "127.0.0.1",
     port: 3000,
   },
+  styleResources: {
+    // your settings here
+    sass: [],
+    scss: [],
+    less: [],
+    stylus: [],
+    hoistUseStatements: true  // Hoists the "@use" imports. Applies only to "sass", "scss" and "less". Default: false.
+   },
   windicss: {
     scan: {
       dir: "./*",

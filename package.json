@@ -6,6 +6,7 @@
     "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
+    "@nuxtjs/style-resources": "^1.2.1",
     "@windicss/animations": "^1.0.8",
     "@windicss/plugin-heropatterns": "^0.0.8",
     "@windicss/plugin-icons": "^1.0.2",
