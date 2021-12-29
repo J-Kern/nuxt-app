@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const state = useState('state', () => true)
+const state = useState('state', () => false)
 const toggle = () => state.value = !state.value
 </script>
 
