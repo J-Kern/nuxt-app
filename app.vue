@@ -16,7 +16,7 @@ const toggle = () => state.value = !state.value
         @click="toggle"
         class="mx-4 my-2 px-2 py-1 dark:text-white text-black border dark:border-gray-200 border-gray-700 rounded-lg"
       >
-        Toggle Theme to be <span class="dark:text-violet-400 text-purple-900">{{!state}}</span>
+        Toggle Theme to be <span class="dark:text-violet-400 text-purple-900">Tilted</span>
       </button>
       <NuxtPage />
     </main>
